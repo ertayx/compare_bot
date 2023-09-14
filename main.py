@@ -1,8 +1,9 @@
 import telebot
 import os
 from compare import compare_images
+from config import BOT_TOKEN
 
-bot = telebot.TeleBot('6618485986:AAEf1qtNHjbYxfQMgqeYGvPY9eiO-3Rif50')  # Инициализация Telegram бота с заданным токеном
+bot = telebot.TeleBot(BOT_TOKEN)  # Инициализация Telegram бота с заданным токеном
 
 # Обработчик для команды /start
 @bot.message_handler(commands=['start'])
