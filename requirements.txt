@@ -1,0 +1,6 @@
+pytelegrambotapi
+opencv-python
+matplotlib
+numpy
+cvlib
+tensorflow
